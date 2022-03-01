@@ -137,3 +137,51 @@ justify-content: flex-start;
     font-weight: bold;
     margin-bottom: 2em;
 }
+.reddit-gold{
+    margin: 2.5em;
+    text-align: center;
+    border: 2px solid gold;
+}
+.reddit-gold div {
+    font-weight: 0;
+    font-size: 20px;
+    padding-top: 1em;
+    color: #5F99CF;
+
+}
+.bar-container{
+    margin-right: 40px;
+    margin-bottom: 1em;
+
+}
+.bar{
+    border-radius: 10px;
+    background-color: gold;
+    width: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.gold-percent{
+    font-weight: bold;
+}
+.reddit-gold-support{
+    background-color: bisque;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: rgba(2, 26, 18, 0.795);
+    box-shadow: 5px -5px 5px -5px gainsboro;
+}
+.user-action-button{
+    background-color: rgb(173, 235, 155);
+    height: 3em;
+    margin-top: .25em;
+    font-size: 20px;
+    border: solid blue;
+    color: rgb(255, 8, 0);
+    border-radius: 5px;
+    width: 100;
+}
+.user-action-button:hover{
+    background-color: #5F99CF;
+    color: white;
+}
