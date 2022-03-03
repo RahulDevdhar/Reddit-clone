@@ -1,7 +1,10 @@
+
 body{
     margin: 0;
     padding: 0;
     font-family: verdana;
+    background-color:#68ce222b;
+
 }
 
 .grid-1{
@@ -9,7 +12,7 @@ body{
 }
 
 header {
-    background-color: #F0F0F0;
+    background-color: #be2c2c;
     border-width: thin;
     border-bottom: solid black;
 }
@@ -27,7 +30,7 @@ header li
 
 header li:hover{
     text-decoration: underline;
-    background-color: cornflowerblue;
+    background-color: #903030;
 }
 
 .reddit-pic{
@@ -36,7 +39,7 @@ header li:hover{
 
 .grid-3{
     display:flex;
-    background-color: #CEE3F8;
+    background-color: #3a809f;
 }
 
 nav{
@@ -137,51 +140,70 @@ justify-content: flex-start;
     font-weight: bold;
     margin-bottom: 2em;
 }
+
+
 .reddit-gold{
-    margin: 2.5em;
+    margin-top: 2.5em;
+    float:right;
     text-align: center;
-    border: 2px solid gold;
+    border: solid rgb(219,209,181);
+    width: 80%;
 }
-.reddit-gold div {
-    font-weight: 0;
-    font-size: 20px;
-    padding-top: 1em;
-    color: #5F99CF;
 
+.reddit-gold div{
+font-weight: 0;
+font-size: 20px;
+padding-top: 1em;
+color: rgb(100,100,80);
 }
+
 .bar-container{
-    margin-right: 40px;
-    margin-bottom: 1em;
+margin-right: 40px;
+margin-bottom: 1em;
+}
 
-}
+
 .bar{
-    border-radius: 10px;
-    background-color: gold;
-    width: 100%;
-    margin-left: 1em;
-    margin-right: 1em;
+border-radius: 10px;
+background-color: #F3E287;
+width: 100%;
+margin-left: 1em;
+margin-right: 1em;
 }
+
 .gold-percent{
-    font-weight: bold;
+font-weight: bold;
 }
+
 .reddit-gold-support{
-    background-color: bisque;
+    background-color: white;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: rgba(2, 26, 18, 0.795);
-    box-shadow: 5px -5px 5px -5px gainsboro;
+    color: rgb(100,100,80);
+    box-shadow: 5px 5px 5px 5px #888888;
 }
+
 .user-action-button{
-    background-color: rgb(173, 235, 155);
+    background-color: #DEF2FF;
     height: 3em;
     margin-top: .25em;
     font-size: 20px;
     border: solid blue;
-    color: rgb(255, 8, 0);
+    color: #4682b4;
     border-radius: 5px;
     width: 100;
+    display: block;
 }
+
 .user-action-button:hover{
-    background-color: #5F99CF;
+    background-color: #3A5ECA;
     color: white;
+}
+
+.main-class{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
